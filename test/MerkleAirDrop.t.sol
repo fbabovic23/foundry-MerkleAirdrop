@@ -8,7 +8,7 @@ import {MerkleAirdrop} from "../src/MerkleAirdrop.sol";
 import {BagelToken} from "../src/BagelToken.sol";
 
 import {ZkSyncChainChecker} from "lib/foundry-devops/src/ZkSyncChainChecker.sol";
-import {DeployMerkleAirdrop} from "../../script/DeployMerkleAirdrop.s.sol";
+import {DeployMerkleAirdrop} from "../script/DeployMerkleAirdrop.s.sol";
 
 contract MerkleAirDropTest is Test, ZkSyncChainChecker {
     MerkleAirdrop public airdrop;
